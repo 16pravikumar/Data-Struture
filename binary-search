@@ -45,4 +45,10 @@ static void binarySearch(int v[], int To_Find)
 	binarySearch(v, To_Find);
 	}
 }
-// contributed by akashish__
+
+Output
+Found At Index 0
+Found At Index 4
+Not Found
+Time Complexity: O (log n)
+Auxiliary Space: O (1)
