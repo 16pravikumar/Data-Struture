@@ -1,0 +1,30 @@
+// Queue Implemenation
+  package javap; 
+  import java.util.*;;
+
+  public class javap {
+  	public static void main(String[] args) {
+  		Queue<String> queue=new LinkedList<String>();
+  		queue.add("praveen");
+  		queue.add("pkk");
+  		queue.add("saurav");
+  		queue.add("bhanu");
+  		System.out.println(queue);
+  		System.out.print(queue.isEmpty());
+  		System.out.print(queue.peek());
+  		System.out.print(queue);
+  		queue.remove();
+  		System.out.print(queue);
+  		for(String element : queue) {
+  		    System.out.println(element);
+  		}
+  	}
+  }
+
+/*[praveen, pkk, saurav, bhanu]
+  falsepraveen[praveen, pkk, saurav, bhanu][pkk, saurav, bhanu]pkk
+  saurav
+  bhanu
+  */
+
+ 
